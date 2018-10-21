@@ -1,6 +1,6 @@
 # 原来python中实现语音识别如此简单！
 
-        '<font color="#0000ff">作者</font>'[霜天](http://www.i5seo.com/python-simple-realize-speech-recognition.html)
+'<font color="#0000ff">作者</font>'[霜天](http://www.i5seo.com/python-simple-realize-speech-recognition.html)
 
 【导读】亚马逊的 Alexa 的巨大成功已经证明：在不远的将来，实现一定程度上的语音支持将成为日常科技的基本要求。整合了语音识别的 Python 程序提供了其他技术无法比拟的交互性和可访问性。最重要的是，在 Python 程序中实现语音识别非常简单。阅读本指南，你就将会了解。你将学到：
 
