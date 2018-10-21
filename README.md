@@ -1,6 +1,6 @@
 # 原来python中实现语音识别如此简单！
 
-​                                                                 <font color="#0000ff">`作者`</font>[霜天](http://www.i5seo.com/python-simple-realize-speech-recognition.html)
+​                                                                 <font color="#0000ff"作者</font>[霜天](http://www.i5seo.com/python-simple-realize-speech-recognition.html)
 
 【导读】亚马逊的 Alexa 的巨大成功已经证明：在不远的将来，实现一定程度上的语音支持将成为日常科技的基本要求。整合了语音识别的 Python 程序提供了其他技术无法比拟的交互性和可访问性。最重要的是，在 Python 程序中实现语音识别非常简单。阅读本指南，你就将会了解。你将学到：
 
@@ -10,7 +10,7 @@
 
 ![](https://github.com/jamesyangget/Speech-Recognition-With-Python/blob/master/Demo/wx_fmt.jpe)
 
-**▌**语言识别工作原理概述**
+**▌** **语言识别工作原理概述**
 
 语音识别源于 20 世纪 50 年代早期在贝尔实验室所做的研究。早期语音识别系统仅能识别单个讲话者以及只有约十几个单词的词汇量。现代语音识别系统已经取得了很大进步，可以识别多个讲话者，并且拥有识别多种语言的庞大词汇表。
 
@@ -22,7 +22,7 @@
 
 幸运的是，对于 Python 使用者而言，一些语音识别服务可通过 API 在线使用，且其中大部分也提供了 Python SDK。
 
-**▌**选择 Python 语音识别包**
+**▌** **选择 Python 语音识别包**
 
 PyPI中有一些现成的语音识别软件包。其中包括：
 
@@ -46,7 +46,7 @@ PyPI中有一些现成的语音识别软件包。其中包括：
 
 SpeechRecognition 库可满足几种主流语音 API ，因此灵活性极高。其中 Google Web Speech API 支持硬编码到 SpeechRecognition 库中的默认 API 密钥，无需注册就可使用。SpeechRecognition 以其灵活性和易用性成为编写 Python 程序的最佳选择。
 
-**▌**安装 SpeechRecognation**
+**▌** **安装 SpeechRecognation**
 
 SpeechRecognition 兼容 Python2.6 , 2.7 和 3.3+，但若在 Python 2 中使用还需要一些额外的安装步骤。本教程中所有开发版本默认 Python 3.3+。
 
@@ -68,7 +68,7 @@ $ pip install SpeechRecognition
 
 若处理现有的音频文件，只需直接调用 SpeechRecognition ，注意具体的用例的一些依赖关系。同时注意，安装 PyAudio 包来获取麦克风输入。
 
-**▌**识别器类**
+**▌** **识别器类**
 
 SpeechRecognition 的核心就是识别器类。
 
@@ -112,7 +112,7 @@ TypeError: recognize_google() missing 1 required positional argument: 'audio_dat
 
 AudioData 实例的创建有两种路径：音频文件或由麦克风录制的音频，先从比较容易上手的音频文件开始。
 
-**▌**音频文件的使用**
+**▌** **音频文件的使用**
 
 首先需要下载音频文件（https://github.com/realpython/python-speech-recognition/tree/master/audio_files），保存到 Python 解释器会话所在的目录中。
 
@@ -288,7 +288,7 @@ cross bun'
 
 可以看到，recognition_google（）返回了一个关键字为 'alternative' 的列表，指的是所有可能的响应列表。此响应列表结构会因 API 而异且主要用于对结果进行调试。
 
-**▌****麦克风的使用**
+**▌** **麦克风的使用**
 
 若要使用 SpeechRecognizer 访问麦克风则必须安装 PyAudio 软件包，请关闭当前的解释器窗口，进行以下操作：
 
@@ -384,7 +384,7 @@ list_microphone_names（）返回列表中麦克风设备名称的索引。在�
 
 但大多数情况下需要使用系统默认麦克风。
 
-**使用** **listen（）****获取麦克风输入数据**
+**使用** **listen（）** **获取麦克风输入数据**
 
  
 
