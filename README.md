@@ -8,7 +8,7 @@
 - PyPI 支持哪些软件包;
 - 如何安装和使用 SpeechRecognition 软件包——一个功能全面且易于使用的 Python 语音识别库。
 
-![](https://github.com/jamesyangget/Speech-Recognition-With-Python/blob/master/Demo/wx_fmt.jpe)
+![](https://github.com/jamesyangget/Speech-Recognition-With-Python/blob/master/wx_fmt.jpe)
 
 **▌** **语言识别工作原理概述**
 
