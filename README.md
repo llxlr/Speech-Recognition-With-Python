@@ -114,7 +114,7 @@ AudioData 实例的创建有两种路径：音频文件或由麦克风录制的�
 
 **▌** **音频文件的使用**
 
-首先需要下载音频文件（https://github.com/realpython/python-speech-recognition/tree/master/audio_files），保存到 Python 解释器会话所在的目录中。
+首先需要下载音频文件（https://github.com/realpython/python-speech-recognition/tree/master/audio_files） ，保存到 Python 解释器会话所在的目录中。
 
 AudioFile 类可以通过音频文件的路径进行初始化，并提供用于读取和处理文件内容的上下文管理器界面。
 
