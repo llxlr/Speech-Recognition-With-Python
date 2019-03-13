@@ -114,7 +114,7 @@ AudioData 实例的创建有两种路径：音频文件或由麦克风录制的�
 
 **▌** **音频文件的使用**
 
-首先需要下载音频文件（https://github.com/realpython/python-speech-recognition/tree/master/audio_files） ，保存到 Python 解释器会话所在的目录中。
+首先需要下载音频文件[https://github.com/realpython/python-speech-recognition/tree/master/audio_files](https://github.com/realpython/python-speech-recognition/tree/master/audio_files) ，保存到 Python 解释器会话所在的目录中。
 
 AudioFile 类可以通过音频文件的路径进行初始化，并提供用于读取和处理文件内容的上下文管理器界面。
 
@@ -222,7 +222,7 @@ cross bun'
 
 噪声在现实世界中确实存在，所有录音都有一定程度的噪声，而未经处理的噪音可能会破坏语音识别应用程序的准确性。
 
-要了解噪声如何影响语音识别，请下载 “jackhammer.wav” （https://github.com/realpython/python-speech-recognition/tree/master/audio_files）文件，并确保将其保存到解释器会话的工作目录中。文件中短语 “the stale smell of old beer lingers” 在是很大钻墙声的背景音中被念出来。
+要了解噪声如何影响语音识别，请下载[“jackhammer.wav”](https://github.com/realpython/python-speech-recognition/tree/master/audio_files)文件，并确保将其保存到解释器会话的工作目录中。文件中短语 “the stale smell of old beer lingers” 在是很大钻墙声的背景音中被念出来。
 
 尝试转录此文件时会发生什么？
 
